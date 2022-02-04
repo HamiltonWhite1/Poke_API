@@ -23,7 +23,10 @@ def find_pick_poke(poke_names):
     print(f"Here's your team so far {player_team}")
     return player_team
 
-# Pokedex logic
+# Pokemon experience
+
+print("""Hello. I am Professor Oak. It's been a long time since I gave a new pokemon trainer their pokemon. More than 20 years, actually. 
+The world of pokemon reaches far and wide, and holds so many adventures. What do you say we get you started on an adventure?""")
 pokemon_ing = True
 while pokemon_ing:
     lets_pick = input("Would you like to pick some pokemon? If you would like to stop and move out in the wide world, press 'n' when you return to this prompt: ").upper()
